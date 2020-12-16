@@ -1,5 +1,5 @@
 Name:           nvidia-settings
-Version:        455.23.04
+Version:        460.27.04
 Release:        1%{?dist}
 Summary:        Configure the NVIDIA graphics driver
 Epoch:          3
@@ -151,6 +151,9 @@ appstream-util validate-relax --nonet %{buildroot}/%{_metainfodir}/%{name}.appda
 %{_libdir}/libXNVCtrl.so
 
 %changelog
+* Tue Dec 15 2020 Christian Birk <mail@birkc.de> - 3:460.27.04-1
+- Update to 460.27.04
+
 * Tue Sep 22 2020 Christian Birk <chris.h3o66@gmail.com> - 3:455.23.04-1
 - Update to 455.23.04
 
